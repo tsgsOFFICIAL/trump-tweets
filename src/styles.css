@@ -25,3 +25,28 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
+
+.row {
+    align-items: center;
+}
+
+.badge {
+    color: white;
+    background: #444;
+    border-radius: .69rem;
+    font-family: monospace;
+}
+
+img {
+    float: right;
+    max-width: 50%;
+    border-radius: 100%;
+}
+
+.tweet-txt {
+    border-radius: .5rem;
+}
+
+.tweet {
+    margin-bottom: 3rem;
+}
