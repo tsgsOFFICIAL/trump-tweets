@@ -19,7 +19,7 @@
         </div>
         
         <div class="col-md-2" style="margin-left: 1.69rem;">
-            <p class="badge">{{ tweet.likes | number }}</p>
+            <p class="badge" [ngClass]="{'special-likes': tweet.likes > 200000}">{{ tweet.likes | number }}</p>
         </div>
     </span>
 </div>

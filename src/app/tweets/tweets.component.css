@@ -23,6 +23,10 @@ img {
     background-color: hotpink;
 }
 
+.special-likes {
+    background-color: rgb(0, 214, 0);
+}
+
 .tweet {
     display: flex;
     flex-flow: row nowrap;
