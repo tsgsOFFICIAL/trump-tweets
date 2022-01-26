@@ -14,7 +14,7 @@
     </div>
 
     <span style="display: flex; flex-flow: row nowrap; align-items: center;">
-        <div class="col-md-8 alert-info tweet-txt">
+        <div class="col-md-8 alert-info tweet-txt" [ngClass]="{'special-word': tweet.text.includes('Democrats')}">
             {{ tweet.text }}
         </div>
         

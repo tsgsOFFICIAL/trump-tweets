@@ -19,6 +19,10 @@ img {
     padding: 1rem;
 }
 
+.special-word {
+    background-color: hotpink;
+}
+
 .tweet {
     display: flex;
     flex-flow: row nowrap;
